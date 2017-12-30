@@ -21,6 +21,17 @@
   margin-top: 24px;
 }
 
+/*Styles for tablets and smaller */
+@media (max-width: 839px) {
+  .profile-info-container {
+    text-align: center;
+  }
+
+  .main-grid {
+    padding-top: 0;
+  }
+}
+
 
 /*Profile card styles*/
 
@@ -29,12 +40,6 @@
   width: 200px;
   margin: auto;
   display: block;
-}
-
-@media (max-width: 839px) {
-  .profile-info-container {
-    text-align: center;
-  }
 }
 
 .profile-info {
