@@ -21,6 +21,15 @@
   display: none;
 }
 
+#navbar .navbar-inner {
+  display: flex;
+}
+
+#navbar .navbar-inner .scroll-top-btn-container {
+  padding: 8px;
+}
+
+
 .main-grid {
   padding-top: 128px;
   max-width: 900px;
